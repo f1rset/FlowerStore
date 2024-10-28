@@ -15,7 +15,7 @@ public class FlowerBucket<T extends FlowerPack> {
 
     public double getPrice() {
         double price = 0;
-        for (FlowerPack pack: flowers){
+        for (FlowerPack pack: flowers) {
             price += pack.getPrice();
         }
         return price;
